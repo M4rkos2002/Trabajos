@@ -34,6 +34,7 @@ class TerminalAlta(Terminal):
     def recibir_monopatin(self, monopatin):
         monopatin.set_estado_a_devuelto()
         self.__monopatines_en_terminal.append(monopatin)
+        self.__en_uso.remove(monopatin)
         
     def ubicar_monopatin(self, codigo):
         try:
@@ -68,9 +69,11 @@ class TerminalMedia(Terminal):
         monopatin.set_estado_a_prestado()
         self.__en_uso.append(monopatin)
 
+
     def recibir_monopatin(self, monopatin):
         monopatin.set_estado_a_devuelto()
         self.__monopatines_en_terminal.append(monopatin)
+        self.__en_uso.remove(monopatin)
         
     def ubicar_monopatin(self, codigo):
         try:
@@ -108,6 +111,7 @@ class TerminalBaja(Terminal):
     def recibir_monopatin(self, monopatin):
         monopatin.set_estado_a_devuelto()
         self.__monopatines_en_terminal.append(monopatin)
+        self.__en_uso.remove(monopatin)
         
     def ubicar_monopatin(self, codigo):
         try:
