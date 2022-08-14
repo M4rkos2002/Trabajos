@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Timmer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Timmer/Timmer.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

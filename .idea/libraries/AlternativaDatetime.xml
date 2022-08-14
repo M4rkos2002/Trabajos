@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AlternativaDatetime">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SistemaDeFacturacion/AlternativaDatetime.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
